@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.article-box {
+  grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
+}
+
+.pokemon-img {
+  min-width: none;
+  min-height: 140px;
+}
+
+.error .btn-next, .error .btn-prev {
+  display: none;
+}
